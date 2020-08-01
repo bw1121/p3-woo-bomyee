@@ -17,19 +17,94 @@
 }
 
 .content-box {
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.9);
     width: 80%;
+    padding: 5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+h1 {
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.fortune {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 260px;
+    height: 260px;
+}
+
+.box {
+    width: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ffffff;
+}
+
+p {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+#colorBox1 {
+    background-color: #BBE2F2;
+}
+
+#colorBox2 {
+    background-color: #BBF2E2;
+}
+
+#colorBox3 {
+    background-color: #D7CAEF;
+}
+
+#colorBox4 {
+    background-color: #F2D7D0;
+}
+
+@media (min-width: 500px) {
+    .fortune {
+        width: 400px;
+        height: 400px;
+    }
 }
 
 @media (min-width: 768px) {
     .content-box {
         width: 70%;
     }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    .fortune {
+        width: 500px;
+        height: 500px;
+    }
+
+    p {
+        font-size: 3rem;
+    }
 }
 
 @media (min-width: 1024px) {
     .content-box {
         width: 60%;
+        padding: 2%;
+    }
+
+    .fortune {
+        width: 600px;
+        height: 600px;
     }
 }
 
