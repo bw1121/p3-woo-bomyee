@@ -136,6 +136,13 @@ p {
     display: none;
 }
 
+/* Message */
+.message p {
+    font-size: 1.5rem;
+    text-transform: none;
+    padding: 3%;
+}
+
 @media (min-width: 500px) {
     .fortune {
         width: 400px;
@@ -159,6 +166,10 @@ p {
 
     p {
         font-size: 3rem;
+    }
+
+    .message p {
+        font-size: 2rem;
     }
 }
 
