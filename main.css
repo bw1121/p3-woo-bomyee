@@ -33,7 +33,7 @@ h1 {
     padding-bottom: 2rem;
 }
 
-.fortune {
+.fortune, .fortune-number {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -54,6 +54,8 @@ p {
     text-transform: uppercase;
 }
 
+/* Color Boxes */
+
 #colorBox1 {
     background-color: #BBE2F2;
 }
@@ -68,6 +70,70 @@ p {
 
 #colorBox4 {
     background-color: #F2D7D0;
+}
+
+/* Number Boxes */
+
+.boxNumber {
+    background-size: cover;
+}
+
+#numberBox1 {
+    background-image: url(img/blue-half.png);
+    border-right: 1px solid #D8D5D5;
+    border-bottom: 1px solid #D8D5D5;
+}
+
+#numberBox2 {
+    background-image: url(img/green-half.png);
+    border-bottom: 1px solid #D8D5D5;
+    border-left: 1px solid #D8D5D5;
+}
+
+#numberBox3 {
+    background-image: url(img/purple-half.png);
+    border-top: 1px solid #D8D5D5;
+    border-right: 1px solid #D8D5D5;
+}
+
+#numberBox4 {
+    background-image: url(img/pink-half.png);
+    border-left: 1px solid #D8D5D5;
+    border-top: 1px solid #D8D5D5;
+}
+
+.numbers {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.numbers p {
+    position: absolute;
+}
+
+.number-left-top p {
+    bottom: 15%;
+    left: 60%;
+}
+
+.number-right-top p {
+    bottom: 15%;
+    right: 60%;
+}
+
+.number-right-bottom p {
+    top: 15%;
+    right: 60%;
+}
+
+.number-left-bottom p {
+    top: 15%;
+    left: 60%;
+}
+
+.hide {
+    display: none;
 }
 
 @media (min-width: 500px) {
