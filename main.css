@@ -3,3 +3,38 @@
     margin: 0;
     padding: 0;
 }
+
+.container {
+    font-family: jakob, sans-serif;
+    font-weight: 700;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    color: #3B3B3B;
+}
+
+.content-box {
+    background-color: #ffffff;
+    width: 80%;
+}
+
+@media (min-width: 768px) {
+    .content-box {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .content-box {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .content-box {
+        max-width: 880px;
+    }
+}
