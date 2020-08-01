@@ -143,6 +143,7 @@ p {
     padding: 3%;
 }
 
+/* BREAKPOINT 500PX */
 @media (min-width: 500px) {
     .fortune {
         width: 400px;
@@ -150,6 +151,7 @@ p {
     }
 }
 
+/* BREAKPOINT 768PX */
 @media (min-width: 768px) {
     .content-box {
         width: 70%;
@@ -173,20 +175,16 @@ p {
     }
 }
 
+/* BREAKPOINT 1024PX */
 @media (min-width: 1024px) {
     .content-box {
         width: 60%;
+        max-width: 880px;
         padding: 2%;
     }
 
     .fortune {
         width: 600px;
         height: 600px;
-    }
-}
-
-@media (min-width: 1024px) {
-    .content-box {
-        max-width: 880px;
     }
 }
