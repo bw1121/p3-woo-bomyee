@@ -102,6 +102,17 @@ p {
     padding: 3%;
 }
 
+/* Btn */
+.btn {
+    position: absolute;
+    bottom: 10%;
+    background-color: #BBE2F2;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    color: #3B3B3B;
+    text-decoration: none;
+}
+
 /* BREAKPOINT 500PX */
 @media (min-width: 500px) {
     .fortune {
@@ -131,6 +142,11 @@ p {
 
     .message p {
         font-size: 2rem;
+    }
+
+    .btn {
+        font-size: 2rem;
+        right: 5%;
     }
 }
 

@@ -34,4 +34,25 @@ $(document).ready(function() {
             $('#fortune-container3').fadeIn();
         }, parseInt($(this).text()) * 2000);
     });
+
+    //Click Number Screen 2 Numbers
+    $('.number2').click(function() {
+        $(this).animate({fontSize: '4rem'}, 100).animate({opacity: '50%'}, 100).animate({opacity: '100%'}, 100);
+
+        // Fade out number screen
+        setTimeout(function() {
+            $('.content-box').fadeOut('slow');
+            $('#fortune-container3').hide();
+            $('h1').hide();
+        }, 700);
+
+        // Fade in message
+        setTimeout(function() {
+            $('.container').css('align-items', 'center');
+            $('.content-box').fadeIn().animate({height: 'fit-content'});
+            $('#fortune-container4').fadeIn(3000, function() {
+                $('.btn').fadeIn();
+            });
+        }, 1500);
+    });
 });
