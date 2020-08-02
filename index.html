@@ -24,50 +24,66 @@
             <div class="content-box">
                 <h1>Pick a color</h1>
                 <!-- Fortune Teller -->
-
-                <div class="fortune">
-                    <!-- 1 screen - colors -->
-                    <div id="colorBox1" class="box">
-                        <p>Blue</p>
-                    </div>
-                    <div id="colorBox2" class="box">
-                        <p>Green</p>
-                    </div>
-                    <div id="colorBox3" class="box">
-                        <p>Purple</p>
-                    </div>
-                    <div id="colorBox4" class="box">
-                        <p>Pink</p>
-                    </div>
-                </div>
-
-                <div class="fortune-number hide">
-                    <!-- 2 screen - Numbers -->
-                    <div id="numberBox1" class="box boxNumber">
-                        <div class="numbers number-left-top">
-                            <p>6</p>
+                
+                <!-- 1 screen - colors -->
+                <div id="fortune-container1" class="fortune">
+                    <!-- Blue -->
+                    <div class="box">
+                        <div id="colorBox1">
+                            <p class="color">Blue</p>
                         </div>
                     </div>
-                    <div id="numberBox2" class="box boxNumber">
-                        <div class="numbers number-right-top">
-                            <p>7</p>
+                    <!-- Green -->
+                    <div class="box">
+                        <div id="colorBox2">
+                            <p class="color">Green</p>
                         </div>
                     </div>
-                    <div id="numberBox3" class="box boxNumber">
-                        <div class="numbers number-left-bottom">
-                            <p>1</p>
+                    <!-- Purple -->
+                    <div class="box">
+                        <div id="colorBox3">
+                            <p class="color">Purple</p>
                         </div>
                     </div>
-                    <div id="numberBox4" class="box boxNumber">
-                        <div class="numbers number-right-bottom">
-                            <p>4</p>
+                    <!-- Pink -->
+                    <div class="box">
+                        <div id="colorBox4">
+                            <p class="color">Pink</p>
                         </div>
                     </div>
                 </div>
+
+                <!-- 2 screen - Numbers -->
+                <div id="fortune-container2" class="hide">
+                    <div class="fortune-number">
+                        <div class="box boxNumber numberBox1">
+                            <div class="numbers number-left-top">
+                                <p>6</p>
+                            </div>
+                        </div>
+                        <div class="box boxNumber numberBox2">
+                            <div class="numbers number-right-top">
+                                <p>7</p>
+                            </div>
+                        </div>
+                        <div class="box boxNumber numberBox3">
+                            <div class="numbers number-left-bottom">
+                                <p>1</p>
+                            </div>
+                        </div>
+                        <div class="box boxNumber numberBox4">
+                            <div class="numbers number-right-bottom">
+                                <p>4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
 
                 <!-- Message -->
-                <div class="message hide">
-                    <p>A golden egg of opportunity falls into your lap this month</p>
+                <div id="fortune-container3" class="hide">
+                    <div class="message hide">
+                        <p>A golden egg of opportunity falls into your lap this month</p>
+                    </div>
                 </div>
             </div>
         </div>
