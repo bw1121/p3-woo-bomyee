@@ -96,7 +96,7 @@ p {
 }
 
 /* Message */
-.message p {
+.message {
     font-size: 1.5rem;
     text-transform: none;
     padding: 3%;
@@ -140,7 +140,7 @@ p {
         font-size: 3rem;
     }
 
-    .message p {
+    .message {
         font-size: 2rem;
     }
 
