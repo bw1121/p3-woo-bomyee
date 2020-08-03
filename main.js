@@ -51,7 +51,11 @@ $(document).ready(function() {
             $('.container').css('align-items', 'center');
             $('.content-box').fadeIn().animate({height: 'fit-content'});
             $('#fortune-container4').fadeIn(3000, function() {
-                $('.btn').fadeIn();
+                $('.btn').fadeIn(function() {
+                    for (i = 0; i < 10; i++) {
+                        $(this).animate({fontSize: '2.5rem'}, 1000).animate({fontSize: '2rem'}, 800);
+                    }
+                });
             });
         }, 1500);
     });
