@@ -1,165 +1,146 @@
 * {
-    border: 0;
-    margin: 0;
-    padding: 0;
+	border: 0;
+	margin: 0;
+	padding: 0;
 }
-
 .container {
-    font-family: jakob, sans-serif;
-    font-weight: 700;
-    background-image: url(img/background.jpg);
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    color: #3B3B3B;
-    text-align: center;
+	font-family: jakob, sans-serif;
+	font-weight: 700;
+	background-image: url(img/background.jpg);
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	color: #3B3B3B;
+	text-align: center;
 }
-
 .content-box {
-    background-color: rgba(255, 255, 255, 0.7);
-    width: 80%;
-    padding: 5%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+	background-color: rgba(255, 255, 255, 0.7);
+	width: 80%;
+	padding: 5%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
 }
-
 h1 {
-    font-size: 2.5rem;
-    padding-bottom: 2rem;
+	font-size: 2.5rem;
+	padding-bottom: 2rem;
 }
-
 .fortune {
-    width: 260px;
-    height: 260px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-between;
-    background-color: #ffffff;
-    border: 5px solid #ffffff;
+	width: 260px;
+	height: 260px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	background-color: #ffffff;
+	border: 5px solid #ffffff;
 }
-
 .box {
-    width: 49.5%;
-    height: 49.5%;
-    display: inline-block;
-    overflow: hidden;
-    position: relative;
-    box-shadow: 2px 3px 5px rgba(0,0,0,0.1);
+	width: 49.5%;
+	height: 49.5%;
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
 }
-
 .box div {
-    height: 100%;
-    width: 100%;
-    position: absolute;
+	height: 100%;
+	width: 100%;
+	position: absolute;
 }
-
 p {
-    font-size: 1.5rem;
-    text-transform: uppercase;
+	font-size: 1.5rem;
+	text-transform: uppercase;
 }
-
 .box p {
-    padding: 35% 0;
+	padding: 35% 0;
 }
-
 /* Color Boxes */
 
 #colorBox1 {
-    background-color: #BBE2F2;
+	background-color: #BBE2F2;
 }
-
 #colorBox2 {
-    background-color: #BBF2E2;
+	background-color: #BBF2E2;
 }
-
 #colorBox3 {
-    background-color: #D7CAEF;
+	background-color: #D7CAEF;
 }
-
 #colorBox4 {
-    background-color: #F2D7D0;
+	background-color: #F2D7D0;
 }
-
 /* Number Boxes */
+
 .boxNumber {
-    background-color: #ffffff;
+	background-color: #ffffff;
 }
-
 .hide {
-    display: none;
+	display: none;
 }
-
 /* Message */
+
 .message {
-    font-size: 1.5rem;
-    text-transform: none;
-    padding: 3%;
+	font-size: 1.5rem;
+	text-transform: none;
+	padding: 3%;
 }
-
 /* Btn */
+
 .btn {
-    position: absolute;
-    bottom: 10%;
-    background-color: #F2D7D0;
-    font-size: 1.5rem;
-    padding: 1rem 2rem;
-    color: #3B3B3B;
-    text-decoration: none;
+	position: absolute;
+	bottom: 10%;
+	background-color: #F2D7D0;
+	font-size: 1.5rem;
+	padding: 1rem 2rem;
+	color: #3B3B3B;
+	text-decoration: none;
 }
-
 /* BREAKPOINT 500PX */
+
 @media (min-width: 500px) {
-    .fortune {
-        width: 400px;
-        height: 400px;
-    }
+	.fortune {
+		width: 400px;
+		height: 400px;
+	}
 }
-
 /* BREAKPOINT 768PX */
+
 @media (min-width: 768px) {
-    .content-box {
-        width: 70%;
-    }
-
-    h1 {
-        font-size: 4rem;
-    }
-
-    .fortune {
-        width: 500px;
-        height: 500px;
-    }
-
-    p {
-        font-size: 3rem;
-    }
-
-    .message {
-        font-size: 2rem;
-    }
-
-    .btn {
-        font-size: 2rem;
-        right: 5%;
-    }
+	.content-box {
+		width: 70%;
+	}
+	h1 {
+		font-size: 4rem;
+	}
+	.fortune {
+		width: 500px;
+		height: 500px;
+	}
+	p {
+		font-size: 3rem;
+	}
+	.message {
+		font-size: 2rem;
+	}
+	.btn {
+		font-size: 2rem;
+		right: 5%;
+	}
 }
-
 /* BREAKPOINT 1024PX */
-@media (min-width: 1024px) {
-    .content-box {
-        width: 60%;
-        max-width: 880px;
-        padding: 2%;
-    }
 
-    .fortune {
-        width: 600px;
-        height: 600px;
-    }
+@media (min-width: 1024px) {
+	.content-box {
+		width: 60%;
+		max-width: 880px;
+		padding: 2%;
+	}
+	.fortune {
+		width: 600px;
+		height: 600px;
+	}
 }
