@@ -4,38 +4,38 @@ $(document).ready(function() {
 		// Animation to boxes
 		for (i = 0; i < $(this).text().length; i++) {
 			$('#colorBox1').animate({
-				bottom: '150px'
+				bottom: '50%'
 			}, 1000).animate({
 				bottom: '0px'
 			}, 1000).animate({
-				right: '150px'
+				right: '50%'
 			}, 1000).animate({
 				right: '0px'
 			}, 1000);
 			$('#colorBox2').animate({
-				bottom: '150px'
+				bottom: '50%'
 			}, 1000).animate({
 				bottom: '0px'
 			}, 1000).animate({
-				left: '150px'
+				left: '50%'
 			}, 1000).animate({
 				left: '0px'
 			}, 1000);
 			$('#colorBox3').animate({
-				top: '150px'
+				top: '50%'
 			}, 1000).animate({
 				top: '0px'
 			}, 1000).animate({
-				right: '150px'
+				right: '50%'
 			}, 1000).animate({
 				right: '0px'
 			}, 1000);
 			$('#colorBox4').animate({
-				top: '150px'
+				top: '50%'
 			}, 1000).animate({
 				top: '0px'
 			}, 1000).animate({
-				left: '150px'
+				left: '50%'
 			}, 1000).animate({
 				left: '0px'
 			}, 1000);
@@ -53,38 +53,38 @@ $(document).ready(function() {
 		// Animation to number boxes
 		for (i = 0; i < parseInt($(this).text()); i++) {
 			$('.numberBox1').animate({
-				bottom: '150px'
+				bottom: '50%'
 			}, 1000).animate({
 				bottom: '0px'
 			}, 1000).animate({
-				right: '150px'
+				right: '50%'
 			}, 1000).animate({
 				right: '0px'
 			}, 1000);
 			$('.numberBox2').animate({
-				bottom: '150px'
+				bottom: '50%'
 			}, 1000).animate({
 				bottom: '0px'
 			}, 1000).animate({
-				left: '150px'
+				left: '50%'
 			}, 1000).animate({
 				left: '0px'
 			}, 1000);
 			$('.numberBox3').animate({
-				top: '150px'
+				top: '50%'
 			}, 1000).animate({
 				top: '0px'
 			}, 1000).animate({
-				right: '150px'
+				right: '50%'
 			}, 1000).animate({
 				right: '0px'
 			}, 1000);
 			$('.numberBox4').animate({
-				top: '150px'
+				top: '50%'
 			}, 1000).animate({
 				top: '0px'
 			}, 1000).animate({
-				left: '150px'
+				left: '50%'
 			}, 1000).animate({
 				left: '0px'
 			}, 1000);
@@ -122,9 +122,9 @@ $(document).ready(function() {
 				$('.btn').fadeIn(function() {
 					for (i = 0; i < 10; i++) {
 						$(this).animate({
-							fontSize: '2.5rem'
+							fontSize: '1.8rem'
 						}, 1000).animate({
-							fontSize: '2rem'
+							fontSize: '1.5rem'
 						}, 800);
 					}
 				});
