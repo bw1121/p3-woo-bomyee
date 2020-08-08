@@ -99,9 +99,7 @@ $(document).ready(function() {
 	var fortunes = ["A golden egg of opportunity falls into your lap this month.", "You must try, or hate yourself for not trying.", "A dream you have will come true.", "When fear hurts you, conquer it and defeat it!", "The greatest risk is not taking one.", "Everything will now come your way.", "You will enjoy good health, you will be surrounded by luxury.", "A new voyage will fill your life with untold memories.", "We all have extraordinary coded within us, waiting to be released.", "It is not necessary to show others you have change; the change will be obvious."];
 	//Click Number Screen 2 Numbers
 	$('.number2').click(function() {
-		$(this).animate({
-			fontSize: '4rem'
-		}, 100).animate({
+		$(this).addClass('big').animate({
 			opacity: '50%'
 		}, 100).animate({
 			opacity: '100%'

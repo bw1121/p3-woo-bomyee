@@ -81,6 +81,9 @@ p {
 .hide {
 	display: none;
 }
+.big {
+	font-size: 2rem;
+}
 /* Message */
 
 .message {
@@ -122,6 +125,9 @@ p {
 	}
 	p {
 		font-size: 3rem;
+	}
+	.big {
+		font-size: 4rem;
 	}
 	.message {
 		font-size: 2rem;
