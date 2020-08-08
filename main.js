@@ -15,6 +15,7 @@ $(document).ready(function() {
         setTimeout(function() {
             $('#fortune-container1').hide();
             $('#fortune-container2').fadeIn();
+            $('h1').text('Choose a number');
         }, $(this).text().length * 2000);
     });
 
